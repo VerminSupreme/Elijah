@@ -1,14 +1,16 @@
 body {
   background-color: #66CCFF;
 }
-
-#header {
+.bird {
   height: 100px;
+}
+#header {
   background-color: white;
   width: 1540px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-size: 40px;
 }
 #container {
   background-color: white;
@@ -20,6 +22,7 @@ body {
 #content {
   margin-left: auto;
   margin-right: auto;
+
 
 }
 #nav {
@@ -38,8 +41,14 @@ a:hover{
 }
 
 #bird{
-  float: left;
-  margin-left: auto;
-  margin-right: 0;
+  padding: 10px;
   width: 100px
+}
+
+img {
+  max-width: 1500px;
+}
+
+.center{
+  text-align: center;
 }
