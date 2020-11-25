@@ -1,0 +1,45 @@
+body {
+  background-color: #66CCFF;
+}
+
+#header {
+  height: 100px;
+  background-color: white;
+  width: 1540px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#container {
+  background-color: white;
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+#content {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#nav {
+  width: 200px;
+  float: left;
+  height: 500px;
+}
+
+a {
+  color: black;
+}
+a:hover{
+  color: #66CCFF;
+  transition: 0.3s;
+
+}
+
+#bird{
+  float: left;
+  margin-left: auto;
+  margin-right: 0;
+  width: 100px
+}
